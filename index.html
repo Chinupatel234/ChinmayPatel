@@ -1,0 +1,1988 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Chinmay Patel - Software Engineer and Computer Science student at San Diego State University. Expert in full-stack development, machine learning, and database management.">
+    <meta name="keywords"
+        content="Chinmay Patel, Software Engineer, Full Stack Developer, San Diego, Machine Learning, Web Development">
+    <meta name="author" content="Chinmay Patel">
+    <meta property="og:title" content="Chinmay Patel | Software Engineer">
+    <meta property="og:description"
+        content="Innovative software engineer with expertise in full-stack development, machine learning, and database management.">
+    <meta property="og:image" content="Chinmay_photo.jpg">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>Chinmay Patel | Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="Logo.png" />
+</head>
+
+<body>
+    <!-- Theme Toggle -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+    </button>
+
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- Page Transition -->
+    <div class="page-transition">
+        <div class="page-transition-inner">
+            <div class="page-transition-progress"></div>
+        </div>
+        <div class="loader-text">Loading Chinmay's Portfolio</div>
+    </div>
+
+    <!-- Skip to Content Link for Accessibility -->
+    <a href="#content" class="skip-link">Skip to content</a>
+
+    <!-- Header -->
+    <header id="header" class="header-floating">
+        <div class="container">
+            <div class="header-inner">
+                <a href="#" class="logo" aria-label="Go to homepage">
+                    <span class="logo-text">Chinmay</span>
+                    <span class="logo-dot"></span>
+                </a>
+                <nav aria-label="Main navigation">
+                    <ul>
+                        <li><a href="#hero" class="nav-link active" data-text="Home">Home</a></li>
+                        <li><a href="#about" class="nav-link" data-text="About">About</a></li>
+                        <li><a href="#portfolio" class="nav-link" data-text="Portfolio">Portfolio</a></li>
+                        <li><a href="#contact" class="nav-link" data-text="Contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-btn" aria-label="Open menu">
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" aria-hidden="true">
+        <div class="mobile-menu-container">
+            <button class="close-menu" aria-label="Close menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <nav aria-label="Mobile navigation">
+                <ul>
+                    <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+                    <li><a href="#about" class="mobile-nav-link">About</a></li>
+                    <li><a href="#portfolio" class="mobile-nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/chinmaypatel8383" target="_blank" aria-label="LinkedIn Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="https://github.com/Chinupatel234" target="_blank" aria-label="GitHub Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77A5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" aria-hidden="true"></div>
+
+    <main id="content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">Hello, I'm</p>
+                    <h1 class="hero-title glitch" data-aos="fade-up" data-aos-delay="400">
+                        <span aria-hidden="true">Chinmay Patel</span>
+                        Chinmay Patel
+                        <span aria-hidden="true">Chinmay Patel</span>
+                    </h1>
+                    <div class="type-wrap" data-aos="fade-up" data-aos-delay="600">
+                        <div id="typed-strings">
+                            <span>Software Engineer</span>
+                            <span>Full Stack Developer</span>
+                            <span>Machine Learning Enthusiast</span>
+                        </div>
+                        <span id="typed" class="typed"></span>
+                    </div>
+                    <p class="hero-description" data-aos="fade-up" data-aos-delay="800">
+                        A passionate Software Engineer and Computer Science student at San Diego
+                        State University. At 19, I'm dedicated to creating innovative tech solutions with expertise in
+                        full-stack development, machine learning, and database management.
+                    </p>
+                    <div class="hero-buttons" data-aos="fade-up" data-aos-delay="1000">
+                        <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                    <div class="social-links" data-aos="fade-up" data-aos-delay="1200">
+                        <a href="https://www.linkedin.com/in/chinmaypatel8383" target="_blank"
+                            aria-label="LinkedIn Profile">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/Chinupatel234" target="_blank" aria-label="GitHub Profile">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77A5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="mailto:chinmay23082005@gmail.com" aria-label="Email Me">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image-container" data-aos="fade-left" data-aos-delay="800">
+                    <div class="blob-animation"></div>
+                    <div class="tech-stack">
+                        <!-- Frontend Technologies -->
+                        <div class="tech-icon" style="--delay:0s; top: 5%; left: 10%;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
+                                loading="lazy">
+                        </div>
+                        <div class="tech-icon" style="--delay:0.2s; top: 15%; right: 10%;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                alt="JavaScript" loading="lazy">
+                        </div>
+                        <div class="tech-icon" style="--delay:0.4s; top: 30%; left: -5%;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                                alt="TypeScript" loading="lazy">
+                        </div>
+                
+                        <!-- Backend Technologies -->
+                        <div class="tech-icon" style="--delay:0.6s; top: 40%; right: -5%;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"
+                                loading="lazy">
+                        </div>
+                        <div class="tech-icon" style="--delay:0.8s; top: 60%; left: -5%;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"
+                                loading="lazy">
+                        </div>
+                        <div class="tech-icon" style="--delay:1.0s; top: 70%; right: 10%;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"
+                                loading="lazy">
+                        </div>
+                
+                        <!-- Server & DevOps -->
+                        <div class="tech-icon" style="--delay:1.2s; top: 85%; left: 15%;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"
+                                loading="lazy">
+                        </div>
+                        <div class="tech-icon" style="--delay:1.4s; bottom: 10%; left: 40%;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" alt="Golang"
+                                loading="lazy">
+                        </div>
+                        <div class="tech-icon" style="--delay:1.6s; bottom: 25%; right: 5%;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"
+                                loading="lazy">
+                        </div>
+                
+                        <!-- Databases -->
+                        <div class="tech-icon" style="--delay:1.8s; bottom: 15%; left: 10%;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"
+                                loading="lazy">
+                        </div>
+                        <div class="tech-icon" style="--delay:2.0s; bottom: 40%; right: -10%;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                                alt="PostgreSQL" loading="lazy">
+                        </div>
+                        <div class="tech-icon" style="--delay:2.2s; bottom: 30%; left: 20%;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis"
+                                loading="lazy">
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-indicator">
+                    <span>Scroll Down</span>
+                    <div class="scroll-arrow"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">About Me</h2>
+                <div class="about-container">
+                    <div class="about-image" data-aos="fade-right" data-aos-delay="200">
+                        <div class="about-image-wrapper">
+                            <img src="Chinmay_photo.jpg" alt="Chinmay Patel" loading="lazy">
+                            <div class="experience-badge">
+                                <span class="number">2+</span>
+                                <span class="text">Years<br>Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-content" data-aos="fade-left" data-aos-delay="400">
+                        <h3>Get to know me</h3>
+                        <p>I'm a sophomore Computer Science student at San Diego State University based in San Diego,
+                            California. At just 19 years old, I'm already gaining valuable industry experience through
+                            internships and personal projects that demonstrate my technical abilities.</p>
+                        <p>Most recently, I worked as a Software Engineer Intern at Chakra Tech, where I developed React
+                            front-end interfaces for medical records systems and refined back-end integration in Golang.
+                            I
+                            also have experience as a Teaching Assistant at Aspiration Institute, where I implemented
+                            interactive sessions on various programming languages.</p>
+                        <p>When I'm not coding, I'm actively involved in the AI Club and Finance and Investment Society
+                            at
+                            SDSU, where I network with industry professionals and develop a deeper understanding of both
+                            tech and finance sectors.</p>
+
+                        <div class="tab-container">
+                            <div class="tab-buttons">
+                                <button class="tab-btn active" data-tab="skills">Skills</button>
+                                <button class="tab-btn" data-tab="education">Education</button>
+                                <button class="tab-btn" data-tab="experience">Experience</button>
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="skills">
+                                    <div class="skills">
+                                        <div class="skill-category">
+                                            <h4>Frontend</h4>
+                                            <div class="skill-items">
+                                                <span class="skill">React</span>
+                                                <span class="skill">JavaScript</span>
+                                                <span class="skill">HTML/CSS</span>
+                                                <span class="skill">TypeScript</span>
+                                            </div>
+                                        </div>
+                                        <div class="skill-category">
+                                            <h4>Backend</h4>
+                                            <div class="skill-items">
+                                                <span class="skill">Node.js</span>
+                                                <span class="skill">Python</span>
+                                                <span class="skill">Java</span>
+                                                <span class="skill">C/C++</span>
+                                                <span class="skill">Golang</span>
+                                            </div>
+                                        </div>
+                                        <div class="skill-category">
+                                            <h4>Database</h4>
+                                            <div class="skill-items">
+                                                <span class="skill">MongoDB</span>
+                                                <span class="skill">PostgreSQL</span>
+                                                <span class="skill">SQL</span>
+                                            </div>
+                                        </div>
+                                        <div class="skill-category">
+                                            <h4>Other</h4>
+                                            <div class="skill-items">
+                                                <span class="skill">Machine Learning</span>
+                                                <span class="skill">Docker</span>
+                                                <span class="skill">Kubernetes</span>
+                                                <span class="skill">Git</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="education">
+                                    <div class="timeline">
+                                        <div class="timeline-item">
+                                            <div class="timeline-dot"></div>
+                                            <div class="timeline-content">
+                                                <h4>B.S. Computer Science</h4>
+                                                <h5>San Diego State University</h5>
+                                                <p>2023 - Present</p>
+                                                <p>Relevant coursework: Data Structures, Algorithms, Database Systems,
+                                                    Machine Learning</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="experience">
+                                    <div class="timeline">
+                                        <div class="timeline-item">
+                                            <div class="timeline-dot"></div>
+                                            <div class="timeline-content">
+                                                <h4>Software Engineer Intern</h4>
+                                                <h5>Chakra Tech</h5>
+                                                <p>June 2024 - Present</p>
+                                                <p>Developed React interfaces for medical records systems and refined
+                                                    back-end integration in Golang.</p>
+                                            </div>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="timeline-dot"></div>
+                                            <div class="timeline-content">
+                                                <h4>Teaching Assistant</h4>
+                                                <h5>Aspiration Institute</h5>
+                                                <p>Jan 2024 - May 2024</p>
+                                                <p>Implemented interactive sessions on various programming languages
+                                                    including C, C++, Python, Java, and JavaScript.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-buttons">
+                            <a href="#contact" class="btn btn-primary">Contact Me</a>
+                            <a href="Patel.Chinmay_Resume.pdf" download="Patel.Chinmay_Resume.pdf" class="btn btn-outline">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">My Portfolio</h2>
+                <div class="portfolio-filter" data-aos="fade-up" data-aos-delay="200">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                    <button class="filter-btn" data-filter="web">Web Dev</button>
+                    <button class="filter-btn" data-filter="automation">Automation</button>
+                </div>
+                <div class="portfolio-grid">
+                    <!-- Portfolio Item 1: House Price Prediction -->
+                    <div class="portfolio-item" data-category="ml" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-img">
+                            <!-- SVG for House Price Prediction -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" class="portfolio-svg">
+                                <!-- Background -->
+                                <rect width="800" height="500" fill="#f8f9fa" rx="12" ry="12" />
+
+                                <!-- Grid lines -->
+                                <g stroke="#e9ecef" stroke-width="1">
+                                    <line x1="100" y1="50" x2="100" y2="400" />
+                                    <line x1="200" y1="50" x2="200" y2="400" />
+                                    <line x1="300" y1="50" x2="300" y2="400" />
+                                    <line x1="400" y1="50" x2="400" y2="400" />
+                                    <line x1="500" y1="50" x2="500" y2="400" />
+                                    <line x1="600" y1="50" x2="600" y2="400" />
+
+                                    <line x1="50" y1="100" x2="700" y2="100" />
+                                    <line x1="50" y1="150" x2="700" y2="150" />
+                                    <line x1="50" y1="200" x2="700" y2="200" />
+                                    <line x1="50" y1="250" x2="700" y2="250" />
+                                    <line x1="50" y1="300" x2="700" y2="300" />
+                                    <line x1="50" y1="350" x2="700" y2="350" />
+                                </g>
+
+                                <!-- Chart Elements -->
+                                <g>
+                                    <!-- Price trend line -->
+                                    <path
+                                        d="M100,300 C150,280 200,270 250,260 C300,250 350,230 400,210 C450,190 500,170 550,150 C600,140 650,135 700,120"
+                                        fill="none" stroke="#6e57ff" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+
+                                    <!-- Prediction point -->
+                                    <circle cx="700" cy="120" r="8" fill="#ff6b6b" />
+
+                                    <!-- Confidence area -->
+                                    <path
+                                        d="M100,320 C150,300 200,290 250,280 C300,270 350,250 400,230 C450,210 500,190 550,170 C600,160 650,155 700,140 L700,100 C650,115 600,120 550,130 C500,150 450,170 400,190 C350,210 300,230 250,240 C200,250 150,260 100,280 Z"
+                                        fill="#6e57ff" fill-opacity="0.1" />
+                                </g>
+
+                                <!-- Houses along the chart -->
+                                <g>
+                                    <!-- House 1 -->
+                                    <g transform="translate(100, 300) scale(0.5)">
+                                        <rect x="-20" y="-20" width="40" height="40" fill="#f8f9fa" stroke="#6e57ff"
+                                            stroke-width="2" />
+                                        <polygon points="-25,-20 25,-20 0,-50" fill="#6e57ff" />
+                                        <rect x="-5" y="0" width="10" height="20" fill="#6e57ff" />
+                                    </g>
+
+                                    <!-- House 2 -->
+                                    <g transform="translate(250, 260) scale(0.5)">
+                                        <rect x="-20" y="-20" width="40" height="40" fill="#f8f9fa" stroke="#6e57ff"
+                                            stroke-width="2" />
+                                        <polygon points="-25,-20 25,-20 0,-50" fill="#6e57ff" />
+                                        <rect x="-5" y="0" width="10" height="20" fill="#6e57ff" />
+                                    </g>
+
+                                    <!-- House 3 -->
+                                    <g transform="translate(400, 210) scale(0.5)">
+                                        <rect x="-20" y="-20" width="40" height="40" fill="#f8f9fa" stroke="#6e57ff"
+                                            stroke-width="2" />
+                                        <polygon points="-25,-20 25,-20 0,-50" fill="#6e57ff" />
+                                        <rect x="-5" y="0" width="10" height="20" fill="#6e57ff" />
+                                    </g>
+
+                                    <!-- House 4 -->
+                                    <g transform="translate(550, 150) scale(0.5)">
+                                        <rect x="-20" y="-20" width="40" height="40" fill="#f8f9fa" stroke="#6e57ff"
+                                            stroke-width="2" />
+                                        <polygon points="-25,-20 25,-20 0,-50" fill="#6e57ff" />
+                                        <rect x="-5" y="0" width="10" height="20" fill="#6e57ff" />
+                                    </g>
+
+                                    <!-- House 5 (prediction) -->
+                                    <g transform="translate(700, 120) scale(0.6)">
+                                        <rect x="-20" y="-20" width="40" height="40" fill="#ff6b6b" stroke="#ff6b6b"
+                                            stroke-width="2" />
+                                        <polygon points="-25,-20 25,-20 0,-50" fill="#ff4757" />
+                                        <rect x="-5" y="0" width="10" height="20" fill="#ffffff" />
+                                    </g>
+                                </g>
+
+                                <!-- Axis labels and title -->
+                                <g font-family="Arial, sans-serif" fill="#343a40">
+                                    <text x="50" y="420" font-size="14">Time (Months)</text>
+                                    <text x="30" y="50" font-size="14" transform="rotate(-90, 30, 50)"
+                                        text-anchor="end">Price ($)</text>
+                                    <text x="400" y="460" font-size="20" text-anchor="middle" font-weight="bold">House
+                                        Price Prediction Model</text>
+                                    <text x="400" y="480" font-size="14" text-anchor="middle">25% Increase in Prediction
+                                        Accuracy</text>
+                                </g>
+
+                                <!-- Data points with values -->
+                                <g font-family="Arial, sans-serif" fill="#343a40">
+                                    <circle cx="100" cy="300" r="5" fill="#6e57ff" />
+                                    <text x="90" y="285" font-size="12" text-anchor="middle">$350K</text>
+
+                                    <circle cx="250" cy="260" r="5" fill="#6e57ff" />
+                                    <text x="250" y="245" font-size="12" text-anchor="middle">$420K</text>
+
+                                    <circle cx="400" cy="210" r="5" fill="#6e57ff" />
+                                    <text x="400" y="195" font-size="12" text-anchor="middle">$520K</text>
+
+                                    <circle cx="550" cy="150" r="5" fill="#6e57ff" />
+                                    <text x="550" y="135" font-size="12" text-anchor="middle">$640K</text>
+
+                                    <text x="700" y="105" font-size="12" text-anchor="middle" fill="#ff6b6b"
+                                        font-weight="bold">$735K</text>
+                                </g>
+
+                                <!-- Legend -->
+                                <g transform="translate(650, 50)">
+                                    <rect x="0" y="0" width="120" height="80" fill="#ffffff" stroke="#e9ecef"
+                                        stroke-width="1" rx="4" ry="4" />
+
+                                    <line x1="10" y1="20" x2="30" y2="20" stroke="#6e57ff" stroke-width="3" />
+                                    <text x="40" y="25" font-family="Arial, sans-serif" font-size="12"
+                                        fill="#343a40">Actual Price</text>
+
+                                    <circle cx="20" cy="50" r="6" fill="#ff6b6b" />
+                                    <text x="40" y="55" font-family="Arial, sans-serif" font-size="12"
+                                        fill="#343a40">Prediction</text>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Machine Learning</span>
+                            <h3>House Price Prediction</h3>
+                            <p>Developed a House Price Prediction model using Python-based Machine Learning algorithms,
+                                increasing prediction accuracy by 25%. Analyzed extensive datasets to identify key
+                                predictors and created an intuitive user interface that enhanced engagement by 30%.</p>
+                            <div class="portfolio-tech">
+                                <span>Python</span>
+                                <span>TensorFlow</span>
+                                <span>Scikit-learn</span>
+                            </div>
+                            <a href="https://github.com/Chinupatel234" target="_blank" class="btn btn-primary">View
+                                Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item 2: Automated User Creation System -->
+                    <div class="portfolio-item" data-category="automation" data-aos="fade-up" data-aos-delay="400">
+                        <div class="portfolio-img">
+                            <!-- SVG for Automated User Creation System -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" class="portfolio-svg">
+                                <!-- Background -->
+                                <rect width="800" height="500" fill="#f8f9fa" rx="12" ry="12" />
+
+                                <!-- Grid Pattern -->
+                                <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+                                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e9ecef" stroke-width="1" />
+                                </pattern>
+                                <rect width="800" height="500" fill="url(#grid)" opacity="0.5" />
+
+                                <!-- Title -->
+                                <text x="400" y="60" font-family="Arial, sans-serif" font-size="24" fill="#343a40"
+                                    text-anchor="middle" font-weight="bold">
+                                    Automated User Creation System
+                                </text>
+                                <text x="400" y="90" font-family="Arial, sans-serif" font-size="14" fill="#6c757d"
+                                    text-anchor="middle">
+                                    Saving 20+ hours of manual labor per month
+                                </text>
+
+                                <!-- Workflow Container -->
+                                <rect x="100" y="120" width="600" height="300" rx="8" ry="8" fill="#ffffff"
+                                    stroke="#e9ecef" stroke-width="2" />
+
+                                <!-- Manual Process (Before) -->
+                                <g transform="translate(150, 150)">
+                                    <!-- Section Title -->
+                                    <text x="0" y="0" font-family="Arial, sans-serif" font-size="18" fill="#ff6b6b"
+                                        font-weight="bold">Manual Process</text>
+
+                                    <!-- Process Steps -->
+                                    <g transform="translate(0, 30)">
+                                        <!-- Step 1: Form -->
+                                        <rect x="0" y="0" width="100" height="40" rx="6" ry="6" fill="#fff"
+                                            stroke="#ff6b6b" stroke-width="2" />
+                                        <text x="50" y="25" font-family="Arial, sans-serif" font-size="12"
+                                            fill="#343a40" text-anchor="middle">Paper Form</text>
+
+                                        <!-- Step 2: Data Entry -->
+                                        <rect x="0" y="70" width="100" height="40" rx="6" ry="6" fill="#fff"
+                                            stroke="#ff6b6b" stroke-width="2" />
+                                        <text x="50" y="95" font-family="Arial, sans-serif" font-size="12"
+                                            fill="#343a40" text-anchor="middle">Manual Entry</text>
+
+                                        <!-- Step 3: Verification -->
+                                        <rect x="0" y="140" width="100" height="40" rx="6" ry="6" fill="#fff"
+                                            stroke="#ff6b6b" stroke-width="2" />
+                                        <text x="50" y="165" font-family="Arial, sans-serif" font-size="12"
+                                            fill="#343a40" text-anchor="middle">Verification</text>
+
+                                        <!-- Step 4: Account -->
+                                        <rect x="0" y="210" width="100" height="40" rx="6" ry="6" fill="#fff"
+                                            stroke="#ff6b6b" stroke-width="2" />
+                                        <text x="50" y="235" font-family="Arial, sans-serif" font-size="12"
+                                            fill="#343a40" text-anchor="middle">Account Creation</text>
+
+                                        <!-- Connector Lines -->
+                                        <line x1="50" y1="40" x2="50" y2="70" stroke="#ff6b6b" stroke-width="2"
+                                            stroke-dasharray="4" />
+                                        <line x1="50" y1="110" x2="50" y2="140" stroke="#ff6b6b" stroke-width="2"
+                                            stroke-dasharray="4" />
+                                        <line x1="50" y1="180" x2="50" y2="210" stroke="#ff6b6b" stroke-width="2"
+                                            stroke-dasharray="4" />
+
+                                        <!-- Time Indicator -->
+                                        <rect x="-30" y="100" width="20" height="80" rx="4" ry="4" fill="#ff6b6b"
+                                            opacity="0.2" />
+                                        <text x="-20" y="140" font-family="Arial, sans-serif" font-size="12"
+                                            fill="#ff6b6b" text-anchor="middle" transform="rotate(-90, -20, 140)">20+
+                                            Hours</text>
+                                    </g>
+                                </g>
+
+                                <!-- Automation Process (After) -->
+                                <g transform="translate(500, 150)">
+                                    <!-- Section Title -->
+                                    <text x="0" y="0" font-family="Arial, sans-serif" font-size="18" fill="#6e57ff"
+                                        font-weight="bold">Automated Process</text>
+
+                                    <!-- Process Steps -->
+                                    <g transform="translate(0, 30)">
+                                        <!-- Step 1: Web Form -->
+                                        <rect x="0" y="0" width="100" height="40" rx="6" ry="6" fill="#fff"
+                                            stroke="#6e57ff" stroke-width="2" />
+                                        <text x="50" y="25" font-family="Arial, sans-serif" font-size="12"
+                                            fill="#343a40" text-anchor="middle">Web Form</text>
+
+                                        <!-- Step 2: API Processing -->
+                                        <rect x="0" y="70" width="100" height="40" rx="6" ry="6" fill="#fff"
+                                            stroke="#6e57ff" stroke-width="2" />
+                                        <text x="50" y="95" font-family="Arial, sans-serif" font-size="12"
+                                            fill="#343a40" text-anchor="middle">API Processing</text>
+
+                                        <!-- Step 3: Auto Verification -->
+                                        <rect x="0" y="140" width="100" height="40" rx="6" ry="6" fill="#fff"
+                                            stroke="#6e57ff" stroke-width="2" />
+                                        <text x="50" y="165" font-family="Arial, sans-serif" font-size="12"
+                                            fill="#343a40" text-anchor="middle">Auto Verification</text>
+
+                                        <!-- Step 4: Account -->
+                                        <rect x="0" y="210" width="100" height="40" rx="6" ry="6" fill="#fff"
+                                            stroke="#6e57ff" stroke-width="2" />
+                                        <text x="50" y="235" font-family="Arial, sans-serif" font-size="12"
+                                            fill="#343a40" text-anchor="middle">Account Creation</text>
+
+                                        <!-- Connector Lines -->
+                                        <line x1="50" y1="40" x2="50" y2="70" stroke="#6e57ff" stroke-width="2" />
+                                        <line x1="50" y1="110" x2="50" y2="140" stroke="#6e57ff" stroke-width="2" />
+                                        <line x1="50" y1="180" x2="50" y2="210" stroke="#6e57ff" stroke-width="2" />
+
+                                        <!-- Time Indicator -->
+                                        <rect x="-30" y="100" width="20" height="80" rx="4" ry="4" fill="#6e57ff"
+                                            opacity="0.2" />
+                                        <text x="-20" y="140" font-family="Arial, sans-serif" font-size="12"
+                                            fill="#6e57ff" text-anchor="middle"
+                                            transform="rotate(-90, -20, 140)">Minutes</text>
+                                    </g>
+                                </g>
+
+                                <!-- Central Transformation Arrow -->
+                                <g transform="translate(400, 240)">
+                                    <circle cx="0" cy="0" r="40" fill="#f8f9fa" stroke="#e9ecef" stroke-width="2" />
+                                    <polygon points="15,0 -10,-15 -10,15" fill="#6e57ff" />
+
+                                    <!-- Gear Icons to Show Automation -->
+                                    <g transform="translate(0, 0)">
+                                        <!-- Large Gear -->
+                                        <path
+                                            d="M0,-20 L4,-19.5 L6,-13 L12,-15 L15,-10 L11,-6 L13,0 L11,6 L15,10 L12,15 L6,13 L4,19.5 L0,20 L-4,19.5 L-6,13 L-12,15 L-15,10 L-11,6 L-13,0 L-11,-6 L-15,-10 L-12,-15 L-6,-13 L-4,-19.5 Z"
+                                            fill="none" stroke="#6c757d" stroke-width="1.5" opacity="0.7">
+                                            <animateTransform attributeName="transform" attributeType="XML"
+                                                type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite" />
+                                        </path>
+
+                                        <!-- Small Gear -->
+                                        <path
+                                            d="M0,-10 L2,-9.8 L3,-6.5 L6,-7.5 L7.5,-5 L5.5,-3 L6.5,0 L5.5,3 L7.5,5 L6,7.5 L3,6.5 L2,9.8 L0,10 L-2,9.8 L-3,6.5 L-6,7.5 L-7.5,5 L-5.5,3 L-6.5,0 L-5.5,-3 L-7.5,-5 L-6,-7.5 L-3,-6.5 L-2,-9.8 Z"
+                                            fill="#6e57ff" opacity="0.7" transform="translate(-15, -15) scale(0.8)">
+                                            <animateTransform attributeName="transform" attributeType="XML"
+                                                type="rotate" from="0" to="-360" dur="10s" repeatCount="indefinite"
+                                                additive="sum" />
+                                        </path>
+                                    </g>
+                                </g>
+
+                                <!-- User Icons -->
+                                <g transform="translate(400, 440)">
+                                    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#343a40"
+                                        text-anchor="middle">500+ Users Created Per Year</text>
+
+                                    <!-- User Icons Row -->
+                                    <g transform="translate(-200, -20)">
+                                        <!-- Example of first few user icons (simplified from original) -->
+                                        <g transform="translate(0, 0)">
+                                            <circle cx="0" cy="0" r="8" fill="#6e57ff" />
+                                            <circle cx="0" cy="-5" r="4" fill="#6e57ff" />
+                                        </g>
+                                        <g transform="translate(25, 0)">
+                                            <circle cx="0" cy="0" r="8" fill="#6e57ff" />
+                                            <circle cx="0" cy="-5" r="4" fill="#6e57ff" />
+                                        </g>
+                                        <g transform="translate(50, 0)">
+                                            <circle cx="0" cy="0" r="8" fill="#6e57ff" />
+                                            <circle cx="0" cy="-5" r="4" fill="#6e57ff" />
+                                        </g>
+                                        <g transform="translate(75, 0)">
+                                            <circle cx="0" cy="0" r="8" fill="#6e57ff" />
+                                            <circle cx="0" cy="-5" r="4" fill="#6e57ff" />
+                                        </g>
+                                        <g transform="translate(100, 0)">
+                                            <circle cx="0" cy="0" r="8" fill="#6e57ff" />
+                                            <circle cx="0" cy="-5" r="4" fill="#6e57ff" />
+                                        </g>
+                                        <g transform="translate(125, 0)">
+                                            <circle cx="0" cy="0" r="8" fill="#6e57ff" />
+                                            <circle cx="0" cy="-5" r="4" fill="#6e57ff" />
+                                        </g>
+                                        <g transform="translate(150, 0)">
+                                            <circle cx="0" cy="0" r="8" fill="#6e57ff" />
+                                            <circle cx="0" cy="-5" r="4" fill="#6e57ff" />
+                                        </g>
+                                        <g transform="translate(175, 0)">
+                                            <circle cx="0" cy="0" r="8" fill="#6e57ff" />
+                                            <circle cx="0" cy="-5" r="4" fill="#6e57ff" />
+                                        </g>
+                                        <g transform="translate(200, 0)">
+                                            <circle cx="0" cy="0" r="8" fill="#6e57ff" />
+                                            <circle cx="0" cy="-5" r="4" fill="#6e57ff" />
+                                        </g>
+                                    </g>
+                                </g>
+
+                                <!-- Stats Boxes -->
+                                <g transform="translate(230, 390)">
+                                    <rect x="0" y="0" width="100" height="50" rx="4" ry="4" fill="#ffffff"
+                                        stroke="#6e57ff" stroke-width="2" />
+                                    <text x="50" y="20" font-family="Arial, sans-serif" font-size="12" fill="#6c757d"
+                                        text-anchor="middle">Time Saved</text>
+                                    <text x="50" y="38" font-family="Arial, sans-serif" font-size="16" fill="#6e57ff"
+                                        text-anchor="middle" font-weight="bold">20 hrs/mo</text>
+                                </g>
+
+                                <g transform="translate(400, 390)">
+                                    <rect x="0" y="0" width="100" height="50" rx="4" ry="4" fill="#ffffff"
+                                        stroke="#6e57ff" stroke-width="2" />
+                                    <text x="50" y="20" font-family="Arial, sans-serif" font-size="12" fill="#6c757d"
+                                        text-anchor="middle">Error Reduction</text>
+                                    <text x="50" y="38" font-family="Arial, sans-serif" font-size="16" fill="#6e57ff"
+                                        text-anchor="middle" font-weight="bold">50%</text>
+                                </g>
+
+                                <g transform="translate(570, 390)">
+                                    <rect x="0" y="0" width="100" height="50" rx="4" ry="4" fill="#ffffff"
+                                        stroke="#6e57ff" stroke-width="2" />
+                                    <text x="50" y="20" font-family="Arial, sans-serif" font-size="12" fill="#6c757d"
+                                        text-anchor="middle">Users Created</text>
+                                    <text x="50" y="38" font-family="Arial, sans-serif" font-size="16" fill="#6e57ff"
+                                        text-anchor="middle" font-weight="bold">500+/year</text>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Automation</span>
+                            <h3>Automated User Creation System</h3>
+                            <p>Implemented Python script with REST API to efficiently create 500 Desk Assistant users
+                                each
+                                year, saving 20 hours of labor monthly for Housing Administration. Established error
+                                handling and logging mechanisms, achieving a 50% reduction in issues.</p>
+                            <div class="portfolio-tech">
+                                <span>Python</span>
+                                <span>REST API</span>
+                                <span>Flask</span>
+                            </div>
+                            <a href="https://github.com/Chinupatel234" target="_blank" class="btn btn-primary">View
+                                Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item 3: Medical Records System -->
+                    <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="500">
+                        <div class="portfolio-img">
+                            <!-- SVG for Medical Records System -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" class="portfolio-svg">
+                                <!-- Background -->
+                                <rect width="800" height="500" fill="#f8f9fa" rx="12" ry="12" />
+
+                                <!-- Screen Device Frame -->
+                                <g transform="translate(400, 250)">
+                                    <!-- Device Shadow -->
+                                    <rect x="-310" y="-190" width="620" height="380" rx="10" ry="10" fill="#343a40"
+                                        opacity="0.1" transform="translate(8, 8)" />
+
+                                    <!-- Device Frame -->
+                                    <rect x="-310" y="-190" width="620" height="380" rx="10" ry="10" fill="#ffffff"
+                                        stroke="#e9ecef" stroke-width="2" />
+
+                                    <!-- Screen Area -->
+                                    <rect x="-300" y="-180" width="600" height="360" rx="4" ry="4" fill="#f8f9fa" />
+
+                                    <!-- App Header -->
+                                    <rect x="-300" y="-180" width="600" height="60" rx="4" ry="4" fill="#6e57ff" />
+                                    <text x="-280" y="-140" font-family="Arial, sans-serif" font-size="18"
+                                        fill="#ffffff" font-weight="bold">Medical Records System</text>
+
+                                    <!-- Header Icons -->
+                                    <circle cx="260" cy="-150" r="15" fill="#ffffff" opacity="0.2" />
+                                    <g transform="translate(260, -150) scale(0.7)">
+                                        <path d="M-5,-5 L5,5 M-5,5 L5,-5" stroke="#ffffff" stroke-width="2"
+                                            stroke-linecap="round" />
+                                    </g>
+
+                                    <circle cx="220" cy="-150" r="15" fill="#ffffff" opacity="0.2" />
+                                    <g transform="translate(220, -150) scale(0.7)">
+                                        <path d="M-5,0 L5,0 M0,-5 L0,5" stroke="#ffffff" stroke-width="2"
+                                            stroke-linecap="round" />
+                                    </g>
+
+                                    <!-- Navigation Sidebar -->
+                                    <rect x="-300" y="-120" width="160" height="300" fill="#ffffff" stroke="#e9ecef"
+                                        stroke-width="1" />
+
+                                    <!-- Nav Items -->
+                                    <rect x="-290" y="-110" width="140" height="40" rx="4" ry="4" fill="#6e57ff"
+                                        opacity="0.1" />
+                                    <text x="-255" y="-85" font-family="Arial, sans-serif" font-size="14" fill="#6e57ff"
+                                        font-weight="bold">Dashboard</text>
+                                    <circle cx="-275" cy="-90" r="8" fill="#6e57ff" />
+
+                                    <text x="-255" y="-45" font-family="Arial, sans-serif" font-size="14"
+                                        fill="#6c757d">Patients</text>
+                                    <circle cx="-275" cy="-50" r="8" fill="#6c757d" opacity="0.5" />
+
+                                    <text x="-255" y="-5" font-family="Arial, sans-serif" font-size="14"
+                                        fill="#6c757d">Appointments</text>
+                                    <circle cx="-275" cy="-10" r="8" fill="#6c757d" opacity="0.5" />
+
+                                    <text x="-255" y="35" font-family="Arial, sans-serif" font-size="14"
+                                        fill="#6c757d">Prescriptions</text>
+                                    <circle cx="-275" cy="30" r="8" fill="#6c757d" opacity="0.5" />
+
+                                    <text x="-255" y="75" font-family="Arial, sans-serif" font-size="14"
+                                        fill="#6c757d">Lab Results</text>
+                                    <circle cx="-275" cy="70" r="8" fill="#6c757d" opacity="0.5" />
+
+                                    <text x="-255" y="115" font-family="Arial, sans-serif" font-size="14"
+                                        fill="#6c757d">Settings</text>
+                                    <circle cx="-275" cy="110" r="8" fill="#6c757d" opacity="0.5" />
+
+                                    <!-- Main Content Area -->
+                                    <rect x="-130" y="-120" width="430" height="300" fill="#ffffff" stroke="#e9ecef"
+                                        stroke-width="1" />
+
+                                    <!-- Content Header -->
+                                    <text x="-110" y="-90" font-family="Arial, sans-serif" font-size="18" fill="#343a40"
+                                        font-weight="bold">Patient Records Dashboard</text>
+
+                                    <!-- Search Bar -->
+                                    <rect x="140" y="-100" width="160" height="30" rx="15" ry="15" fill="#f8f9fa"
+                                        stroke="#e9ecef" stroke-width="1" />
+                                    <text x="170" y="-80" font-family="Arial, sans-serif" font-size="12"
+                                        fill="#6c757d">Search patients...</text>
+                                    <circle cx="150" cy="-85" r="6" fill="none" stroke="#6c757d" stroke-width="1.5" />
+                                    <line x1="154" y1="-81" x2="158" y2="-77" stroke="#6c757d" stroke-width="1.5" />
+
+                                    <!-- Patient Cards -->
+                                    <!-- Card 1 -->
+                                    <rect x="-110" y="-70" width="200" height="110" rx="6" ry="6" fill="#ffffff"
+                                        stroke="#e9ecef" stroke-width="1" />
+                                    <circle cx="-80" cy="-30" r="20" fill="#6e57ff" opacity="0.2" />
+                                    <text x="-80" y="-26" font-family="Arial, sans-serif" font-size="14" fill="#6e57ff"
+                                        text-anchor="middle" font-weight="bold">JD</text>
+                                    <text x="-40" y="-40" font-family="Arial, sans-serif" font-size="14" fill="#343a40"
+                                        font-weight="bold">John Doe</text>
+                                    <text x="-40" y="-20" font-family="Arial, sans-serif" font-size="12"
+                                        fill="#6c757d">ID: 12345678</text>
+                                    <line x1="-110" y1="-5" x2="90" y2="-5" stroke="#e9ecef" stroke-width="1" />
+                                    <text x="-100" y="15" font-family="Arial, sans-serif" font-size="12"
+                                        fill="#6c757d">Last Visit: 03/15/2025</text>
+
+                                    <!-- Card 2 -->
+                                    <rect x="110" y="-70" width="200" height="110" rx="6" ry="6" fill="#ffffff"
+                                        stroke="#e9ecef" stroke-width="1" />
+                                    <circle cx="140" cy="-30" r="20" fill="#ff6b6b" opacity="0.2" />
+                                    <text x="140" y="-26" font-family="Arial, sans-serif" font-size="14" fill="#ff6b6b"
+                                        text-anchor="middle" font-weight="bold">JS</text>
+                                    <text x="180" y="-40" font-family="Arial, sans-serif" font-size="14" fill="#343a40"
+                                        font-weight="bold">Jane Smith</text>
+                                    <text x="180" y="-20" font-family="Arial, sans-serif" font-size="12"
+                                        fill="#6c757d">ID: 23456789</text>
+                                    <line x1="110" y1="-5" x2="310" y2="-5" stroke="#e9ecef" stroke-width="1" />
+                                    <text x="120" y="15" font-family="Arial, sans-serif" font-size="12"
+                                        fill="#6c757d">Last Visit: 03/10/2025</text>
+
+                                    <!-- Card 3 -->
+                                    <rect x="-110" y="60" width="200" height="110" rx="6" ry="6" fill="#ffffff"
+                                        stroke="#e9ecef" stroke-width="1" />
+                                    <circle cx="-80" cy="100" r="20" fill="#4caf50" opacity="0.2" />
+                                    <text x="-80" y="104" font-family="Arial, sans-serif" font-size="14" fill="#4caf50"
+                                        text-anchor="middle" font-weight="bold">RJ</text>
+                                    <text x="-40" y="90" font-family="Arial, sans-serif" font-size="14" fill="#343a40"
+                                        font-weight="bold">Robert Johnson</text>
+                                    <text x="-40" y="110" font-family="Arial, sans-serif" font-size="12"
+                                        fill="#6c757d">ID: 34567890</text>
+                                    <line x1="-110" y1="125" x2="90" y2="125" stroke="#e9ecef" stroke-width="1" />
+                                    <text x="-100" y="145" font-family="Arial, sans-serif" font-size="12"
+                                        fill="#6c757d">Last Visit: 02/28/2025</text>
+
+                                    <!-- Card 4 -->
+                                    <rect x="110" y="60" width="200" height="110" rx="6" ry="6" fill="#ffffff"
+                                        stroke="#e9ecef" stroke-width="1" />
+                                    <circle cx="140" cy="100" r="20" fill="#ff9800" opacity="0.2" />
+                                    <text x="140" y="104" font-family="Arial, sans-serif" font-size="14" fill="#ff9800"
+                                        text-anchor="middle" font-weight="bold">EW</text>
+                                    <text x="180" y="90" font-family="Arial, sans-serif" font-size="14" fill="#343a40"
+                                        font-weight="bold">Emily Wilson</text>
+                                    <text x="180" y="110" font-family="Arial, sans-serif" font-size="12"
+                                        fill="#6c757d">ID: 45678901</text>
+                                    <line x1="110" y1="125" x2="310" y2="125" stroke="#e9ecef" stroke-width="1" />
+                                    <text x="120" y="145" font-family="Arial, sans-serif" font-size="12"
+                                        fill="#6c757d">Last Visit: 03/05/2025</text>
+                                </g>
+
+                                <!-- Performance Metrics -->
+                                <g transform="translate(400, 430)">
+                                    <!-- Stats Title -->
+                                    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" fill="#343a40"
+                                        text-anchor="middle" font-weight="bold">System Performance Metrics</text>
+
+                                    <!-- Stat Boxes -->
+                                    <g transform="translate(-240, 25)">
+                                        <rect x="0" y="0" width="120" height="60" rx="6" ry="6" fill="#ffffff"
+                                            stroke="#6e57ff" stroke-width="1.5" />
+                                        <text x="60" y="25" font-family="Arial, sans-serif" font-size="12"
+                                            fill="#6c757d" text-anchor="middle">Data Entry Time</text>
+                                        <text x="60" y="45" font-family="Arial, sans-serif" font-size="18"
+                                            fill="#6e57ff" font-weight="bold" text-anchor="middle">-30%</text>
+                                    </g>
+
+                                    <g transform="translate(-80, 25)">
+                                        <rect x="0" y="0" width="120" height="60" rx="6" ry="6" fill="#ffffff"
+                                            stroke="#ff6b6b" stroke-width="1.5" />
+                                        <text x="60" y="25" font-family="Arial, sans-serif" font-size="12"
+                                            fill="#6c757d" text-anchor="middle">Backend Integration</text>
+                                        <text x="60" y="45" font-family="Arial, sans-serif" font-size="18"
+                                            fill="#ff6b6b" font-weight="bold" text-anchor="middle">+40%</text>
+                                    </g>
+
+                                    <g transform="translate(80, 25)">
+                                        <rect x="0" y="0" width="120" height="60" rx="6" ry="6" fill="#ffffff"
+                                            stroke="#4caf50" stroke-width="1.5" />
+                                        <text x="60" y="25" font-family="Arial, sans-serif" font-size="12"
+                                            fill="#6c757d" text-anchor="middle">User Satisfaction</text>
+                                        <text x="60" y="45" font-family="Arial, sans-serif" font-size="18"
+                                            fill="#4caf50" font-weight="bold" text-anchor="middle">95%</text>
+                                    </g>
+
+                                    <g transform="translate(240, 25)">
+                                        <rect x="0" y="0" width="120" height="60" rx="6" ry="6" fill="#ffffff"
+                                            stroke="#ff9800" stroke-width="1.5" />
+                                        <text x="60" y="25" font-family="Arial, sans-serif" font-size="12"
+                                            fill="#6c757d" text-anchor="middle">Response Time</text>
+                                        <text x="60" y="45" font-family="Arial, sans-serif" font-size="18"
+                                            fill="#ff9800" font-weight="bold" text-anchor="middle">125ms</text>
+                                    </g>
+                                </g>
+
+                                <!-- Title and Subtitle -->
+                                <g transform="translate(400, 40)">
+                                    <text x="0" y="0" font-family="Arial, sans-serif" font-size="24" fill="#343a40"
+                                        text-anchor="middle" font-weight="bold">Medical Records System</text>
+                                    <text x="0" y="30" font-family="Arial, sans-serif" font-size="16" fill="#6c757d"
+                                        text-anchor="middle">React Frontend with Golang Backend Integration</text>
+                                </g>
+
+                                <!-- Technology Stack Icons -->
+                                <g transform="translate(150, 45)">
+                                    <!-- React Icon -->
+                                    <circle cx="0" cy="0" r="20" fill="#61dafb" opacity="0.2" />
+                                    <g transform="scale(0.03)">
+                                        <path d="M666.3,296.5c0-32.5-40.7-63.3-103.1-82.4c14.4-63.6,8-114.2-20.2-130.4c-6.5-3.8-14.1-5.6-22.4-5.6v22.3
+                                    c4.6,0,8.3,0.9,11.4,2.6c13.6,7.8,19.5,37.5,14.9,75.7c-1.1,9.4-2.9,19.3-5.1,29.4c-19.6-4.8-41-8.5-63.5-10.9
+                                    c-13.5-18.5-27.5-35.3-41.6-50c32.6-30.3,63.2-46.9,84-46.9l0-22.3c0,0,0,0,0,0c-27.5,0-63.5,19.6-99.9,53.6
+                                    c-36.4-33.8-72.4-53.2-99.9-53.2v22.3c20.7,0,51.4,16.5,84,46.6c-14,14.7-28,31.4-41.3,49.9c-22.6,2.4-44,6.1-63.6,11
+                                    c-2.3-10-4-19.7-5.2-29c-4.7-38.2,1.1-67.9,14.6-75.8c3-1.8,6.9-2.6,11.5-2.6l0-22.3c0,0,0,0,0,0c-8.4,0-16,1.8-22.6,5.6
+                                    c-28.1,16.2-34.4,66.7-19.9,130.1c-62.2,19.2-102.7,49.9-102.7,82.3c0,32.5,40.7,63.3,103.1,82.4c-14.4,63.6-8,114.2,20.2,130.4
+                                    c6.5,3.8,14.1,5.6,22.5,5.6c27.5,0,63.5-19.6,99.9-53.6c36.4,33.8,72.4,53.2,99.9,53.2c8.4,0,16-1.8,22.6-5.6
+                                    c28.1-16.2,34.4-66.7,19.9-130.1C625.8,359.7,666.3,329.1,666.3,296.5z M536.1,229.8c-3.7,12.9-8.3,26.2-13.5,39.5
+                                    c-4.1-8-8.4-16-13.1-24c-4.6-8-9.5-15.8-14.4-23.4C509.3,224,523,226.6,536.1,229.8z M490.3,336.3c-7.8,13.5-15.8,26.3-24.1,38.2
+                                    c-14.9,1.3-30,2-45.2,2c-15.1,0-30.2-0.7-45-1.9c-8.3-11.9-16.4-24.6-24.2-38c-7.6-13.1-14.5-26.4-20.8-39.8
+                                    c6.2-13.4,13.2-26.8,20.7-39.9c7.8-13.5,15.8-26.3,24.1-38.2c14.9-1.3,30-2,45.2-2c15.1,0,30.2,0.7,45,1.9
+                                    c8.3,11.9,16.4,24.6,24.2,38c7.6,13.1,14.5,26.4,20.8,39.8C504.7,309.8,497.8,323.2,490.3,336.3z M522.6,323.3
+                                    c5.4,13.4,10,26.8,13.8,39.8c-13.1,3.2-26.9,5.9-41.2,8c4.9-7.7,9.8-15.6,14.4-23.7C514.2,339.4,518.5,331.3,522.6,323.3z
+                                    M421.2,430c-9.3-9.6-18.6-20.3-27.8-32c9,0.4,18.2,0.7,27.5,0.7c9.4,0,18.7-0.2,27.8-0.7C439.7,409.7,430.4,420.4,421.2,430z
+                                    M346.8,371.1c-14.2-2.1-27.9-4.7-41-7.9c3.7-12.9,8.3-26.2,13.5-39.5c4.1,8,8.4,16,13.1,24C337.1,355.7,341.9,363.5,346.8,371.1z
+                                    M420.7,163c9.3,9.6,18.6,20.3,27.8,32c-9-0.4-18.2-0.7-27.5-0.7c-9.4,0-18.7,0.2-27.8,0.7C402.2,183.3,411.5,172.6,420.7,163z
+                                    M346.7,221.9c-4.9,7.7-9.8,15.6-14.4,23.7c-4.6,8-8.9,16-13,24c-5.4-13.4-10-26.8-13.8-39.8C318.6,226.7,332.4,224,346.7,221.9z
+                                    M256.2,347.1c-35.4-15.1-58.3-34.9-58.3-50.6c0-15.7,22.9-35.6,58.3-50.6c8.6-3.7,18-7,27.7-10.1c5.7,19.6,13.2,40,22.5,60.9
+                                    c-9.2,20.8-16.6,41.1-22.2,60.6C274.3,354.2,264.9,350.8,256.2,347.1z M310,490c-13.6-7.8-19.5-37.5-14.9-75.7
+                                    c1.1-9.4,2.9-19.3,5.1-29.4c19.6,4.8,41,8.5,63.5,10.9c13.5,18.5,27.5,35.3,41.6,50c-32.6,30.3-63.2,46.9-84,46.9
+                                    C316.8,492.6,313,491.7,310,490z M547.2,413.8c4.7,38.2-1.1,67.9-14.6,75.8c-3,1.8-6.9,2.6-11.5,2.6c-20.7,0-51.4-16.5-84-46.6
+                                    c14-14.7,28-31.4,41.3-49.9c22.6-2.4,44-6.1,63.6-11C544.3,394.8,546.1,404.5,547.2,413.8z M585.7,347.1
+                                    c-8.6,3.7-18,7-27.7,10.1c-5.7-19.6-13.2-40-22.5-60.9c9.2-20.8,16.6-41.1,22.2-60.6c9.9,3.1,19.3,6.5,28.1,10.2
+                                    c35.4,15.1,58.3,34.9,58.3,50.6C644,312.2,621.1,332.1,585.7,347.1z"
+                                            fill="#61dafb" />
+                                        <circle cx="420.9" cy="296.5" r="45.7" fill="#61dafb" />
+                                    </g>
+                                    <text x="0" y="35" font-family="Arial, sans-serif" font-size="12" fill="#343a40"
+                                        text-anchor="middle">React</text>
+                                </g>
+
+                                <g transform="translate(220, 45)">
+                                    <!-- Golang Icon -->
+                                    <circle cx="0" cy="0" r="20" fill="#00ADD8" opacity="0.2" />
+                                    <g transform="scale(0.03) translate(-150, -200)">
+                                        <path
+                                            d="M108.2 244.8c-.1-1.6-.2-3.2-.5-4.7-.3-1.5-.8-3-1.4-4.4-.6-1.4-1.5-2.7-2.4-3.8-2.5-2.9-5.9-4.7-9.5-4.7s-7 1.8-9.5 4.7c-1 1.1-1.8 2.4-2.4 3.8-.6 1.4-1.1 2.9-1.4 4.4-.3 1.5-.4 3.1-.5 4.7-.1 1-.1 2.1-.1 3.1 0 1 0 2.1.1 3.1.1 1.6.2 3.2.5 4.7.3 1.5.8 3 1.4 4.4.6 1.4 1.5 2.7 2.4 3.8 2.5 2.9 5.9 4.7 9.5 4.7s7-1.8 9.5-4.7c1-1.1 1.8-2.4 2.4-3.8.6-1.4 1.1-2.9 1.4-4.4.3-1.5.4-3.1.5-4.7.1-1 .1-2.1.1-3.1 0-1 0-2.1-.1-3.1zm275.5 5.7V208h-10.7v31.7h-17.8v10.7h46.3v-10.7h-17.8zm-213.7 0v-22.2h.4l14 32.9h7.3l14-32.9h.4v32.9h10.7v-42.5h-16.5l-12.5 29.6h-.4l-12.5-29.6H142v42.5h10.7zm221.7-67.1c12.7 0 22.9-10.7 22.9-23.8 0-12.8-10.3-23.8-22.9-23.8s-22.9 11-22.9 23.8c0 13.1 10.2 23.8 22.9 23.8zm0-9.4c-7.4 0-13.4-6.3-13.4-14.4 0-7.8 6-14.4 13.4-14.4s13.4 6.6 13.4 14.4c0 8.1-6 14.4-13.4 14.4zM282 154.9l4.9-10.5c5.2 3.4 10.7 5.5 16.7 5.5 3.9 0 5.9-1.6 5.9-3.8 0-2.9-4.6-3.8-9.9-5.5-8.6-2.3-18.7-6-18.7-17 0-12 9.4-16.7 20.2-16.7 8.2 0 15.7 2.3 22.5 6.8l-4.7 10c-6-3.4-12.4-5.5-17.8-5.5-3.1 0-4.7 1.3-4.7 3.5 0 2.9 4.7 3.8 10.2 5.7 8.6 2.9 18.4 6.3 18.4 16.8 0 11.3-8.9 17-21.4 17-9.2 0-18.3-3.2-26.6-8.9zm-34.9 7.3h-11.3l-11.5-61.6h11.8l7.1 45.3h.4l16-45.3h9.6l16 45.3h.4l7.1-45.3h11.8l-11.5 61.6h-11.3l-17-45.5h-.4l-17.2 45.5zm-80.5-52.4h12.6v61.6H154l-32.6-42v42h-12.6V109.8h12.3l32.9 42.2v-42.2z"
+                                            fill="#00ADD8" />
+                                    </g>
+                                    <text x="0" y="35" font-family="Arial, sans-serif" font-size="12" fill="#343a40"
+                                        text-anchor="middle">Golang</text>
+                                </g>
+
+                                <g transform="translate(290, 45)">
+                                    <!-- PostgreSQL Icon -->
+                                    <circle cx="0" cy="0" r="20" fill="#336791" opacity="0.2" />
+                                    <g transform="scale(0.02) translate(-400, -500)">
+                                        <path
+                                            d="M475.1,670.3c-6.6,1.2-10.6,1.9-17.5,3.4c5.9,1.8,13.7,2.3,20.2,2c13.1-0.4,23.2-3.6,27.8-7.2c-12.7-2.5-19.9-5.2-30.5,1.8 L475.1,670.3L475.1,670.3z M733.1,404.1c-6,53.9-40.7,100.3-97,123.1c-22.8,9.3-48.7,12.9-73.7,11.2c-21.2-1.4-45.4-6.5-62.7-16.2 c-38.7-21.8-59.9-59-63.5-102.9c-1.6-19.3,0.9-47.2,6.7-65.1c13.9-42.3,43.2-70.3,85.9-82.6c19.6-5.6,52.2-5.7,73.4,0.4 c31.7,9.2,55,28.6,70.9,54.7C696.9,335.9,730.6,362.9,733.1,404.1L733.1,404.1z M573.7,362.7c-4.8-8.1-15.6-18.6-28.9-18.6 c-30.3,0-34.4,52-8.5,67.4c14.9,8.8,36.5-2.5,42.1-23.1c0.8-3.1,1.8-8.9,1.8-12.1C580.2,371.8,576.2,366.9,573.7,362.7 L573.7,362.7z M571,436.3c-2.9,3.8-7.4,7.4-11.5,7.6c-8.6,0.4-12.3-7.1-13.7-10.3c-7.1-16.2-1.6-50.4,12.3-61.8 c6.9-5.7,16.7-5.1,21.1,1.2C579.2,373,587,414.6,571,436.3L571,436.3z M389.8,644.6l0.1-0.2c19.6-4.1,30.5-2.3,43.2,3.2 c5.9-12.9,17.4-21.6,30.2-21.9c12.5-0.4,23.1,7.3,29.6,19.6c9-8.3,19.2-12.2,29.6-11.5c29.2,2.1,35.4,40.3,25.7,65.6 c-11.1,29-32.5,50.7-64.1,65.8c6.2,14.5,14.7,23.3,21.6,23.1c8.4-0.4,14.9-8.2,22.5-16.3c3.5-3.8,5.1-5.2,8.3-1.5 c5.6,6.5-7.6,26.1-24.4,26.8c-10.7,0.4-20.4-5.9-28.9-16.3c-42.5,14.5-89.5,18.1-132.3,9.7c-18.7-3.4-48.4-13.9-65.2-27.3 c-4.2-3.4-8.1-7.8-11.7-12.1c-12.2-20.9,7.5-33.4,18.1-43.7c13.2-12.9,30.1-24.6,48.9-32.7c-9.4-11.7-16.3-22.2-16-37.5 c0.4-39.5,52.6-51.4,58.6-51.4c12.5-0.1,27.8,4.6,36.4,14.8c7.8,9.1,8.9,27.1,1.8,37.5C383.5,616.7,380.8,633.7,389.8,644.6 L389.8,644.6z M392.3,748c33.4,8.9,80.7,10.4,118.4-7.1c-5.8-7.4-11.1-15.8-14.7-26.8c-0.5-1.8-0.1-3.9,1.2-5.2 c1.6-1.7,4.1-2,6-0.7c1.5,1,2.5,2.9,3.1,4.9c3.6,11.5,9.3,20.1,15.9,28c0.5,0.5,0.6,1.3,0.4,2c-0.2,0.6-0.8,1.1-1.5,1.1 c-0.5,0-0.9-0.2-1.2-0.5c-0.2-0.2-0.4-0.5-0.6-0.7c4.9,4.3,10.2,8.5,15.5,11.6c18.9-10.3,35.1-25.9,43.7-44.9 c12.5-27.3,1.9-45-15.2-45.7c-8.9-0.5-17.2,3.2-25.3,12.1c-2.5,2.7-3.5,5.5-5.6,4.6c-2.7-1.1-1.5-15.4-4.1-12.5 c-2.3,2.6-9.3,16.7-22.4,16.9c-13.6,0.2-25.1-10.1-29.1-24.9c-6.2,8.8-15.7,13.8-26,13.8c-11-0.1-20.4-6.2-26.1-15.6 c-10.5-3.1-19.7-4.4-36.4-0.7l-0.2,0.1c-7.4,4.4-11.8,13.4-11.3,23c0.1,2.3,1.7,4.2,4,4.7c4.1,0.9,6.9-4.4,10.2-7.5 c9.2-9,21.9-3.5,23.5,2.4c2,7.2-1.3,15.1-8.4,20.1c-5.8,3.9-13.1,5.7-20.5,5.7c-14.2,0-31.8-7.2-38.5-19.3 c-8.6,7.8-20.1,20.3-12.1,36.4C353.5,734.1,372.3,743,392.3,748L392.3,748z"
+                                            fill="#336791" />
+                                    </g>
+                                    <text x="0" y="35" font-family="Arial, sans-serif" font-size="12" fill="#343a40"
+                                        text-anchor="middle">PostgreSQL</text>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Web Development</span>
+                            <h3>Medical Records System</h3>
+                            <p>Developed user-friendly React front-end interfaces for Chakra Tech, streamlining data
+                                entry
+                                processes and reducing input time by 30% for medical records. Refined back-end
+                                integration
+                                in Golang, achieving a 40% performance increase.</p>
+                            <div class="portfolio-tech">
+                                <span>React</span>
+                                <span>Golang</span>
+                                <span>PostgreSQL</span>
+                            </div>
+                            <a href="https://github.com/Chinupatel234" target="_blank" class="btn btn-primary">View
+                                Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item 4: Educational Platform -->
+                    <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="600">
+                        <div class="portfolio-img">
+                            <!-- Custom educational platform image -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" class="portfolio-svg">
+                                <!-- Background -->
+                                <rect width="800" height="500" fill="#f8f9fa" rx="12" ry="12" />
+
+                                <!-- Educational Platform Interface -->
+                                <g transform="translate(400, 250)">
+                                    <!-- Platform Container -->
+                                    <rect x="-350" y="-200" width="700" height="400" rx="8" ry="8" fill="#ffffff"
+                                        stroke="#e9ecef" stroke-width="2" />
+
+                                    <!-- Header -->
+                                    <rect x="-350" y="-200" width="700" height="60" rx="8" ry="8" fill="#6e57ff" />
+                                    <text x="-330" y="-160" font-family="Arial, sans-serif" font-size="20"
+                                        fill="#ffffff" font-weight="bold">Educational Platform</text>
+
+                                    <!-- Navigation -->
+                                    <g transform="translate(-200, -160)">
+                                        <rect x="-100" y="-15" width="100" height="30" rx="15" ry="15" fill="#ffffff"
+                                            opacity="0.2" />
+                                        <text x="-50" y="5" font-family="Arial, sans-serif" font-size="14"
+                                            fill="#ffffff" text-anchor="middle">Dashboard</text>
+                                    </g>
+                                    <g transform="translate(-80, -160)">
+                                        <rect x="-100" y="-15" width="100" height="30" rx="15" ry="15" fill="#ffffff"
+                                            opacity="0.3" />
+                                        <text x="-50" y="5" font-family="Arial, sans-serif" font-size="14"
+                                            fill="#ffffff" text-anchor="middle">Courses</text>
+                                    </g>
+                                    <g transform="translate(40, -160)">
+                                        <rect x="-100" y="-15" width="100" height="30" rx="15" ry="15" fill="#ffffff"
+                                            opacity="0.2" />
+                                        <text x="-50" y="5" font-family="Arial, sans-serif" font-size="14"
+                                            fill="#ffffff" text-anchor="middle">Resources</text>
+                                    </g>
+                                    <g transform="translate(160, -160)">
+                                        <rect x="-100" y="-15" width="100" height="30" rx="15" ry="15" fill="#ffffff"
+                                            opacity="0.2" />
+                                        <text x="-50" y="5" font-family="Arial, sans-serif" font-size="14"
+                                            fill="#ffffff" text-anchor="middle">Profile</text>
+                                    </g>
+
+                                    <!-- Search Bar -->
+                                    <g transform="translate(300, -160)">
+                                        <rect x="-60" y="-15" width="120" height="30" rx="15" ry="15" fill="#ffffff"
+                                            opacity="0.2" />
+                                        <text x="-30" y="5" font-family="Arial, sans-serif" font-size="12"
+                                            fill="#ffffff">Search...</text>
+                                        <circle cx="30" cy="0" r="8" fill="#ffffff" opacity="0.4" />
+                                        <path d="M33,3 L38,8" stroke="#ffffff" stroke-width="2"
+                                            stroke-linecap="round" />
+                                    </g>
+
+                                    <!-- Main Content Area -->
+                                    <rect x="-325" y="-125" width="650" height="300" rx="4" ry="4" fill="#f8f9fa" />
+
+                                    <!-- Course Title -->
+                                    <text x="-300" y="-90" font-family="Arial, sans-serif" font-size="24" fill="#343a40"
+                                        font-weight="bold">Programming Fundamentals</text>
+
+                                    <!-- Course Description -->
+                                    <text x="-300" y="-60" font-family="Arial, sans-serif" font-size="14"
+                                        fill="#6c757d">Learn the basics of programming with interactive examples and
+                                        exercises in multiple languages.</text>
+
+                                    <!-- Progress Bar -->
+                                    <rect x="-300" y="-40" width="400" height="10" rx="5" ry="5" fill="#e9ecef" />
+                                    <rect x="-300" y="-40" width="280" height="10" rx="5" ry="5" fill="#6e57ff" />
+                                    <text x="110" y="-35" font-family="Arial, sans-serif" font-size="12"
+                                        fill="#6c757d">70% Complete</text>
+
+                                    <!-- Module Grid -->
+                                    <g transform="translate(0, 40)">
+                                        <!-- Row 1 -->
+                                        <!-- Python Module -->
+                                        <g transform="translate(-250, 0)">
+                                            <rect x="-50" y="-50" width="100" height="100" rx="8" ry="8" fill="#ffffff"
+                                                stroke="#e9ecef" stroke-width="1" />
+                                            <circle cx="0" cy="-20" r="25" fill="#4584b6" opacity="0.2" />
+                                            <text x="0" y="-20" font-family="Arial, sans-serif" font-size="16"
+                                                fill="#4584b6" text-anchor="middle" font-weight="bold">Py</text>
+                                            <text x="0" y="15" font-family="Arial, sans-serif" font-size="14"
+                                                fill="#343a40" text-anchor="middle" font-weight="bold">Python</text>
+                                            <text x="0" y="35" font-family="Arial, sans-serif" font-size="12"
+                                                fill="#6c757d" text-anchor="middle">8 lessons</text>
+                                        </g>
+
+                                        <!-- JavaScript Module -->
+                                        <g transform="translate(-125, 0)">
+                                            <rect x="-50" y="-50" width="100" height="100" rx="8" ry="8" fill="#ffffff"
+                                                stroke="#e9ecef" stroke-width="1" />
+                                            <circle cx="0" cy="-20" r="25" fill="#f7df1e" opacity="0.2" />
+                                            <text x="0" y="-20" font-family="Arial, sans-serif" font-size="16"
+                                                fill="#f7df1e" text-anchor="middle" font-weight="bold">JS</text>
+                                            <text x="0" y="15" font-family="Arial, sans-serif" font-size="14"
+                                                fill="#343a40" text-anchor="middle" font-weight="bold">JavaScript</text>
+                                            <text x="0" y="35" font-family="Arial, sans-serif" font-size="12"
+                                                fill="#6c757d" text-anchor="middle">12 lessons</text>
+                                        </g>
+
+                                        <!-- Java Module -->
+                                        <g transform="translate(0, 0)">
+                                            <rect x="-50" y="-50" width="100" height="100" rx="8" ry="8" fill="#ffffff"
+                                                stroke="#e9ecef" stroke-width="1" />
+                                            <circle cx="0" cy="-20" r="25" fill="#007396" opacity="0.2" />
+                                            <text x="0" y="-20" font-family="Arial, sans-serif" font-size="16"
+                                                fill="#007396" text-anchor="middle" font-weight="bold">J</text>
+                                            <text x="0" y="15" font-family="Arial, sans-serif" font-size="14"
+                                                fill="#343a40" text-anchor="middle" font-weight="bold">Java</text>
+                                            <text x="0" y="35" font-family="Arial, sans-serif" font-size="12"
+                                                fill="#6c757d" text-anchor="middle">10 lessons</text>
+                                        </g>
+
+                                        <!-- C/C++ Module -->
+                                        <g transform="translate(125, 0)">
+                                            <rect x="-50" y="-50" width="100" height="100" rx="8" ry="8" fill="#ffffff"
+                                                stroke="#e9ecef" stroke-width="1" />
+                                            <circle cx="0" cy="-20" r="25" fill="#004482" opacity="0.2" />
+                                            <text x="0" y="-20" font-family="Arial, sans-serif" font-size="16"
+                                                fill="#004482" text-anchor="middle" font-weight="bold">C++</text>
+                                            <text x="0" y="15" font-family="Arial, sans-serif" font-size="14"
+                                                fill="#343a40" text-anchor="middle" font-weight="bold">C/C++</text>
+                                            <text x="0" y="35" font-family="Arial, sans-serif" font-size="12"
+                                                fill="#6c757d" text-anchor="middle">9 lessons</text>
+                                        </g>
+
+                                        <!-- Data Science Module -->
+                                        <g transform="translate(250, 0)">
+                                            <rect x="-50" y="-50" width="100" height="100" rx="8" ry="8" fill="#ffffff"
+                                                stroke="#e9ecef" stroke-width="1" />
+                                            <circle cx="0" cy="-20" r="25" fill="#ff6b6b" opacity="0.2" />
+                                            <text x="0" y="-20" font-family="Arial, sans-serif" font-size="16"
+                                                fill="#ff6b6b" text-anchor="middle" font-weight="bold">DS</text>
+                                            <text x="0" y="15" font-family="Arial, sans-serif" font-size="14"
+                                                fill="#343a40" text-anchor="middle" font-weight="bold">Data
+                                                Science</text>
+                                            <text x="0" y="35" font-family="Arial, sans-serif" font-size="12"
+                                                fill="#6c757d" text-anchor="middle">6 lessons</text>
+                                        </g>
+                                    </g>
+
+                                    <!-- Stats Area -->
+                                    <g transform="translate(0, 150)">
+                                        <rect x="-300" y="-30" width="600" height="60" rx="8" ry="8" fill="#ffffff"
+                                            stroke="#e9ecef" stroke-width="1" />
+
+                                        <!-- Completed Lessons -->
+                                        <g transform="translate(-200, 0)">
+                                            <text x="0" y="-10" font-family="Arial, sans-serif" font-size="12"
+                                                fill="#6c757d" text-anchor="middle">Completed Lessons</text>
+                                            <text x="0" y="15" font-family="Arial, sans-serif" font-size="18"
+                                                fill="#6e57ff" text-anchor="middle" font-weight="bold">32 / 45</text>
+                                        </g>
+
+                                        <!-- Exercises Solved -->
+                                        <g transform="translate(0, 0)">
+                                            <text x="0" y="-10" font-family="Arial, sans-serif" font-size="12"
+                                                fill="#6c757d" text-anchor="middle">Exercises Solved</text>
+                                            <text x="0" y="15" font-family="Arial, sans-serif" font-size="18"
+                                                fill="#ff6b6b" text-anchor="middle" font-weight="bold">126 / 150</text>
+                                        </g>
+
+                                        <!-- Student Satisfaction -->
+                                        <g transform="translate(200, 0)">
+                                            <text x="0" y="-10" font-family="Arial, sans-serif" font-size="12"
+                                                fill="#6c757d" text-anchor="middle">Student Satisfaction</text>
+                                            <text x="0" y="15" font-family="Arial, sans-serif" font-size="18"
+                                                fill="#4caf50" text-anchor="middle" font-weight="bold">90%</text>
+                                        </g>
+                                    </g>
+                                </g>
+
+                                <!-- Title -->
+                                <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" fill="#343a40"
+                                    text-anchor="middle" font-weight="bold">Interactive Educational Platform</text>
+                                <text x="400" y="70" font-family="Arial, sans-serif" font-size="14" fill="#6c757d"
+                                    text-anchor="middle">Teaching multiple programming languages with 90% student
+                                    satisfaction</text>
+                            </svg>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Web Development</span>
+                            <h3>Educational Platform</h3>
+                            <p>Created interactive learning materials and code examples for Aspiration Institute,
+                                demonstrating proficiency in multiple programming languages including C, C++, Python,
+                                Java,
+                                and JavaScript, resulting in a 90% student satisfaction score.</p>
+                            <div class="portfolio-tech">
+                                <span>JavaScript</span>
+                                <span>Node.js</span>
+                                <span>Express</span>
+                            </div>
+                            <a href="https://github.com/Chinupatel234" target="_blank" class="btn btn-primary">View
+                                Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item 5: Data Analytics Dashboard -->
+                    <div class="portfolio-item" data-category="ml" data-aos="fade-up" data-aos-delay="700">
+                        <div class="portfolio-img">
+                            <!-- Data Analytics Dashboard Image -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" class="portfolio-svg">
+                                <!-- Background -->
+                                <rect width="800" height="500" fill="#f8f9fa" rx="12" ry="12" />
+
+                                <!-- Dashboard Container -->
+                                <rect x="50" y="50" width="700" height="400" rx="8" ry="8" fill="#ffffff"
+                                    stroke="#e9ecef" stroke-width="2" />
+
+                                <!-- Header -->
+                                <rect x="50" y="50" width="700" height="60" rx="8" ry="8" fill="#6e57ff" />
+                                <text x="100" y="90" font-family="Arial, sans-serif" font-size="22" fill="#ffffff"
+                                    font-weight="bold">Data Analytics Dashboard</text>
+
+                                <!-- Time Selector -->
+                                <g transform="translate(600, 80)">
+                                    <rect x="-80" y="-20" width="160" height="40" rx="20" ry="20" fill="#ffffff"
+                                        opacity="0.2" />
+                                    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" fill="#ffffff"
+                                        text-anchor="middle">Last 30 Days</text>
+                                    <path d="M50,0 L60,10 L50,20" fill="none" stroke="#ffffff" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+
+                                <!-- Dashboard Grid -->
+                                <g>
+                                    <!-- KPI Cards Row -->
+                                    <g transform="translate(400, 140)">
+                                        <!-- Total Users -->
+                                        <g transform="translate(-300, 0)">
+                                            <rect x="-50" y="-30" width="100" height="60" rx="4" ry="4" fill="#ffffff"
+                                                stroke="#e9ecef" stroke-width="1" />
+                                            <text x="-40" y="-10" font-family="Arial, sans-serif" font-size="12"
+                                                fill="#6c757d">Total Users</text>
+                                            <text x="-40" y="15" font-family="Arial, sans-serif" font-size="18"
+                                                fill="#343a40" font-weight="bold">21,245</text>
+                                            <text x="25" y="15" font-family="Arial, sans-serif" font-size="10"
+                                                fill="#4caf50">+5.7%</text>
+                                        </g>
+
+                                        <!-- Engagement Rate -->
+                                        <g transform="translate(-180, 0)">
+                                            <rect x="-50" y="-30" width="100" height="60" rx="4" ry="4" fill="#ffffff"
+                                                stroke="#e9ecef" stroke-width="1" />
+                                            <text x="-40" y="-10" font-family="Arial, sans-serif" font-size="12"
+                                                fill="#6c757d">Engagement</text>
+                                            <text x="-40" y="15" font-family="Arial, sans-serif" font-size="18"
+                                                fill="#343a40" font-weight="bold">67.8%</text>
+                                            <text x="25" y="15" font-family="Arial, sans-serif" font-size="10"
+                                                fill="#4caf50">+2.4%</text>
+                                        </g>
+
+                                        <!-- Conversion Rate -->
+                                        <g transform="translate(-60, 0)">
+                                            <rect x="-50" y="-30" width="100" height="60" rx="4" ry="4" fill="#ffffff"
+                                                stroke="#e9ecef" stroke-width="1" />
+                                            <text x="-40" y="-10" font-family="Arial, sans-serif" font-size="12"
+                                                fill="#6c757d">Conversion</text>
+                                            <text x="-40" y="15" font-family="Arial, sans-serif" font-size="18"
+                                                fill="#343a40" font-weight="bold">12.3%</text>
+                                            <text x="25" y="15" font-family="Arial, sans-serif" font-size="10"
+                                                fill="#ff6b6b">-0.5%</text>
+                                        </g>
+
+                                        <!-- Revenue -->
+                                        <g transform="translate(60, 0)">
+                                            <rect x="-50" y="-30" width="100" height="60" rx="4" ry="4" fill="#ffffff"
+                                                stroke="#e9ecef" stroke-width="1" />
+                                            <text x="-40" y="-10" font-family="Arial, sans-serif" font-size="12"
+                                                fill="#6c757d">Revenue</text>
+                                            <text x="-40" y="15" font-family="Arial, sans-serif" font-size="18"
+                                                fill="#343a40" font-weight="bold">$95.2K</text>
+                                            <text x="25" y="15" font-family="Arial, sans-serif" font-size="10"
+                                                fill="#4caf50">+8.1%</text>
+                                        </g>
+
+                                        <!-- Average Order -->
+                                        <g transform="translate(180, 0)">
+                                            <rect x="-50" y="-30" width="100" height="60" rx="4" ry="4" fill="#ffffff"
+                                                stroke="#e9ecef" stroke-width="1" />
+                                            <text x="-40" y="-10" font-family="Arial, sans-serif" font-size="12"
+                                                fill="#6c757d">Avg. Order</text>
+                                            <text x="-40" y="15" font-family="Arial, sans-serif" font-size="18"
+                                                fill="#343a40" font-weight="bold">$48.90</text>
+                                            <text x="25" y="15" font-family="Arial, sans-serif" font-size="10"
+                                                fill="#4caf50">+3.2%</text>
+                                        </g>
+
+                                        <!-- CAC -->
+                                        <g transform="translate(300, 0)">
+                                            <rect x="-50" y="-30" width="100" height="60" rx="4" ry="4" fill="#ffffff"
+                                                stroke="#e9ecef" stroke-width="1" />
+                                            <text x="-40" y="-10" font-family="Arial, sans-serif" font-size="12"
+                                                fill="#6c757d">CAC</text>
+                                            <text x="-40" y="15" font-family="Arial, sans-serif" font-size="18"
+                                                fill="#343a40" font-weight="bold">$18.50</text>
+                                            <text x="25" y="15" font-family="Arial, sans-serif" font-size="10"
+                                                fill="#ff6b6b">+1.7%</text>
+                                        </g>
+                                    </g>
+
+                                    <!-- Main Charts -->
+                                    <g transform="translate(190, 250)">
+                                        <!-- Line Chart -->
+                                        <rect x="-120" y="-70" width="240" height="140" rx="4" ry="4" fill="#ffffff"
+                                            stroke="#e9ecef" stroke-width="1" />
+                                        <text x="-110" y="-50" font-family="Arial, sans-serif" font-size="14"
+                                            fill="#343a40" font-weight="bold">User Growth</text>
+
+                                        <!-- Grid -->
+                                        <line x1="-100" y1="40" x2="100" y2="40" stroke="#e9ecef" stroke-width="1" />
+                                        <line x1="-100" y1="10" x2="100" y2="10" stroke="#e9ecef" stroke-width="1" />
+                                        <line x1="-100" y1="-20" x2="100" y2="-20" stroke="#e9ecef" stroke-width="1" />
+
+                                        <!-- Line Chart Data -->
+                                        <path
+                                            d="M-100,20 C-80,10 -60,30 -40,20 C-20,10 0,-10 20,-30 C40,-50 60,-30 80,-50 C100,-70 120,-60 120,-60"
+                                            fill="none" stroke="#6e57ff" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+
+                                        <!-- Data Points -->
+                                        <circle cx="-100" cy="20" r="3" fill="#6e57ff" />
+                                        <circle cx="-40" cy="20" r="3" fill="#6e57ff" />
+                                        <circle cx="20" cy="-30" r="3" fill="#6e57ff" />
+                                        <circle cx="80" cy="-50" r="3" fill="#6e57ff" />
+                                    </g>
+
+                                    <g transform="translate(470, 250)">
+                                        <!-- Bar Chart -->
+                                        <rect x="-120" y="-70" width="240" height="140" rx="4" ry="4" fill="#ffffff"
+                                            stroke="#e9ecef" stroke-width="1" />
+                                        <text x="-110" y="-50" font-family="Arial, sans-serif" font-size="14"
+                                            fill="#343a40" font-weight="bold">Revenue by Channel</text>
+
+                                        <!-- Horizontal Grid -->
+                                        <line x1="-100" y1="40" x2="100" y2="40" stroke="#e9ecef" stroke-width="1" />
+                                        <line x1="-100" y1="10" x2="100" y2="10" stroke="#e9ecef" stroke-width="1" />
+                                        <line x1="-100" y1="-20" x2="100" y2="-20" stroke="#e9ecef" stroke-width="1" />
+
+                                        <!-- Bar Chart Data -->
+                                        <rect x="-90" y="10" width="30" height="30" fill="#6e57ff" opacity="0.8" rx="2"
+                                            ry="2" />
+                                        <rect x="-40" y="-30" width="30" height="70" fill="#6e57ff" opacity="0.8" rx="2"
+                                            ry="2" />
+                                        <rect x="10" y="0" width="30" height="40" fill="#6e57ff" opacity="0.8" rx="2"
+                                            ry="2" />
+                                        <rect x="60" y="-10" width="30" height="50" fill="#6e57ff" opacity="0.8" rx="2"
+                                            ry="2" />
+                                    </g>
+
+                                    <g transform="translate(190, 390)">
+                                        <!-- Pie Chart -->
+                                        <rect x="-120" y="-70" width="240" height="140" rx="4" ry="4" fill="#ffffff"
+                                            stroke="#e9ecef" stroke-width="1" />
+                                        <text x="-110" y="-50" font-family="Arial, sans-serif" font-size="14"
+                                            fill="#343a40" font-weight="bold">User Demographics</text>
+
+                                        <!-- Pie Chart -->
+                                        <g transform="translate(0, 0)">
+                                            <!-- Pie Segments -->
+                                            <path d="M0,0 L50,0 A50,50 0 0,1 15.5,47.6 Z" fill="#6e57ff" />
+                                            <path d="M0,0 L15.5,47.6 A50,50 0 0,1 -40.5,29.4 Z" fill="#ff6b6b" />
+                                            <path d="M0,0 L-40.5,29.4 A50,50 0 0,1 -30.9,-40.5 Z" fill="#4caf50" />
+                                            <path d="M0,0 L-30.9,-40.5 A50,50 0 0,1 50,0 Z" fill="#ff9800" />
+                                        </g>
+                                    </g>
+
+                                    <g transform="translate(470, 390)">
+                                        <!-- Area Chart -->
+                                        <rect x="-120" y="-70" width="240" height="140" rx="4" ry="4" fill="#ffffff"
+                                            stroke="#e9ecef" stroke-width="1" />
+                                        <text x="-110" y="-50" font-family="Arial, sans-serif" font-size="14"
+                                            fill="#343a40" font-weight="bold">Conversion Funnel</text>
+
+                                        <!-- Funnel Chart -->
+                                        <path d="M-100,-20 L100,-20 L80,0 L-80,0 Z" fill="#6e57ff" opacity="0.8" />
+                                        <path d="M-80,5 L80,5 L60,25 L-60,25 Z" fill="#6e57ff" opacity="0.6" />
+                                        <path d="M-60,30 L60,30 L40,50 L-40,50 Z" fill="#6e57ff" opacity="0.4" />
+
+                                        <!-- Labels -->
+                                        <text x="0" y="-10" font-family="Arial, sans-serif" font-size="10"
+                                            fill="#ffffff" text-anchor="middle">Visitors (100%)</text>
+                                        <text x="0" y="15" font-family="Arial, sans-serif" font-size="10" fill="#ffffff"
+                                            text-anchor="middle">Leads (67%)</text>
+                                        <text x="0" y="40" font-family="Arial, sans-serif" font-size="10" fill="#ffffff"
+                                            text-anchor="middle">Customers (32%)</text>
+                                    </g>
+                                </g>
+
+                                <!-- ML Prediction Badge -->
+                                <g transform="translate(720, 430)">
+                                    <rect x="-100" y="-20" width="100" height="40" rx="20" ry="20" fill="#ff6b6b"
+                                        opacity="0.2" />
+                                    <text x="-50" y="0" font-family="Arial, sans-serif" font-size="12" fill="#ff6b6b"
+                                        font-weight="bold">ML Powered</text>
+                                    <g transform="translate(-85, 0) scale(0.8)">
+                                        <path d="M-5,-5 C-5,0 0,5 5,0 C10,-5 5,-10 0,-5 C-5,0 -10,-5 -5,-5 Z"
+                                            fill="#ff6b6b" />
+                                        <circle cx="0" cy="-5" r="1.5" fill="#ffffff" />
+                                        <circle cx="0" cy="0" r="1.5" fill="#ffffff" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Machine Learning</span>
+                            <h3>Data Analytics Dashboard</h3>
+                            <p>Personal project leveraging Python and PostgreSQL to create a comprehensive analytics
+                                dashboard that visualizes complex datasets. Implemented several machine learning
+                                algorithms
+                                to identify patterns and generate predictive insights.</p>
+                            <div class="portfolio-tech">
+                                <span>Python</span>
+                                <span>PostgreSQL</span>
+                                <span>Pandas</span>
+                            </div>
+                            <a href="https://github.com/Chinupatel234" target="_blank" class="btn btn-primary">View
+                                Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item 6: Workflow Automation Tool -->
+                    <div class="portfolio-item" data-category="automation" data-aos="fade-up" data-aos-delay="800">
+                        <div class="portfolio-img">
+                            <!-- Workflow Automation Tool Image -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" class="portfolio-svg">
+                                <!-- Background -->
+                                <rect width="800" height="500" fill="#f8f9fa" rx="12" ry="12" />
+
+                                <!-- Grid lines -->
+                                <pattern id="smallGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+                                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e9ecef" stroke-width="0.5" />
+                                </pattern>
+                                <rect width="800" height="500" fill="url(#smallGrid)" />
+
+                                <!-- Title -->
+                                <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" fill="#343a40"
+                                    text-anchor="middle" font-weight="bold">Workflow Automation Tool</text>
+                                <text x="400" y="80" font-family="Arial, sans-serif" font-size="14" fill="#6c757d"
+                                    text-anchor="middle">Docker & Kubernetes for containerized scaling</text>
+
+                                <!-- Main diagram area -->
+                                <rect x="50" y="100" width="700" height="350" rx="8" ry="8" fill="#ffffff"
+                                    stroke="#e9ecef" stroke-width="2" />
+
+                                <!-- Workflow Icons and Arrows -->
+                                <g transform="translate(400, 275)">
+                                    <!-- Container 1: Code Repository -->
+                                    <g transform="translate(-300, 0)">
+                                        <rect x="-60" y="-50" width="120" height="100" rx="8" ry="8" fill="#ffffff"
+                                            stroke="#6e57ff" stroke-width="2" />
+                                        <text x="0" y="-20" font-family="Arial, sans-serif" font-size="14"
+                                            fill="#343a40" text-anchor="middle" font-weight="bold">Code
+                                            Repository</text>
+
+                                        <!-- Git icon simplified -->
+                                        <g transform="translate(0, 10) scale(0.8)">
+                                            <path d="M20,0 L-20,0 L0,-20 Z" fill="#ff6b6b" />
+                                            <path d="M20,0 L0,20 L-20,0 Z" fill="#ff6b6b" />
+                                            <circle cx="0" cy="0" r="5" fill="#ffffff" />
+                                        </g>
+                                    </g>
+
+                                    <!-- Arrow 1 -->
+                                    <g transform="translate(-210, 0)">
+                                        <path d="M-20,0 L20,0" stroke="#6e57ff" stroke-width="2"
+                                            stroke-linecap="round" />
+                                        <polygon points="15,-5 25,0 15,5" fill="#6e57ff" />
+                                    </g>
+
+                                    <!-- Container 2: CI Pipeline -->
+                                    <g transform="translate(-150, 0)">
+                                        <rect x="-60" y="-50" width="120" height="100" rx="8" ry="8" fill="#ffffff"
+                                            stroke="#6e57ff" stroke-width="2" />
+                                        <text x="0" y="-20" font-family="Arial, sans-serif" font-size="14"
+                                            fill="#343a40" text-anchor="middle" font-weight="bold">CI Pipeline</text>
+
+                                        <!-- Gears icon simplified -->
+                                        <g transform="translate(0, 10)">
+                                            <circle cx="0" cy="0" r="20" fill="none" stroke="#ff6b6b"
+                                                stroke-width="2" />
+                                            <path d="M0,-20 L0,20 M-20,0 L20,0" stroke="#ff6b6b" stroke-width="2" />
+                                            <circle cx="0" cy="0" r="8" fill="#ff6b6b" />
+                                        </g>
+                                    </g>
+
+                                    <!-- Arrow 2 -->
+                                    <g transform="translate(-60, 0)">
+                                        <path d="M-20,0 L20,0" stroke="#6e57ff" stroke-width="2"
+                                            stroke-linecap="round" />
+                                        <polygon points="15,-5 25,0 15,5" fill="#6e57ff" />
+                                    </g>
+
+                                    <!-- Container 3: Docker Build -->
+                                    <g transform="translate(0, 0)">
+                                        <rect x="-60" y="-50" width="120" height="100" rx="8" ry="8" fill="#ffffff"
+                                            stroke="#6e57ff" stroke-width="2" />
+                                        <text x="0" y="-20" font-family="Arial, sans-serif" font-size="14"
+                                            fill="#343a40" text-anchor="middle" font-weight="bold">Docker Build</text>
+
+                                        <!-- Docker icon simplified -->
+                                        <g transform="translate(0, 10)">
+                                            <rect x="-20" y="-10" width="10" height="10" fill="#2496ED" />
+                                            <rect x="-8" y="-10" width="10" height="10" fill="#2496ED" />
+                                            <rect x="4" y="-10" width="10" height="10" fill="#2496ED" />
+                                            <rect x="-20" y="2" width="10" height="10" fill="#2496ED" />
+                                            <rect x="-8" y="2" width="10" height="10" fill="#2496ED" />
+                                            <rect x="4" y="2" width="10" height="10" fill="#2496ED" />
+                                        </g>
+                                    </g>
+
+                                    <!-- Arrow 3 -->
+                                    <g transform="translate(60, 0)">
+                                        <path d="M-20,0 L20,0" stroke="#6e57ff" stroke-width="2"
+                                            stroke-linecap="round" />
+                                        <polygon points="15,-5 25,0 15,5" fill="#6e57ff" />
+                                    </g>
+
+                                    <!-- Container 4: Kubernetes Deploy -->
+                                    <g transform="translate(150, 0)">
+                                        <rect x="-60" y="-50" width="120" height="100" rx="8" ry="8" fill="#ffffff"
+                                            stroke="#6e57ff" stroke-width="2" />
+                                        <text x="0" y="-20" font-family="Arial, sans-serif" font-size="14"
+                                            fill="#343a40" text-anchor="middle" font-weight="bold">K8s Deployment</text>
+
+                                        <!-- Kubernetes icon simplified -->
+                                        <g transform="translate(0, 10)">
+                                            <polygon points="0,-20 17,-10 17,10 0,20 -17,10 -17,-10" fill="none"
+                                                stroke="#326CE5" stroke-width="2" />
+                                            <circle cx="0" cy="0" r="8" fill="#326CE5" />
+                                        </g>
+                                    </g>
+
+                                    <!-- Arrow 4 -->
+                                    <g transform="translate(210, 0)">
+                                        <path d="M-20,0 L20,0" stroke="#6e57ff" stroke-width="2"
+                                            stroke-linecap="round" />
+                                        <polygon points="15,-5 25,0 15,5" fill="#6e57ff" />
+                                    </g>
+
+                                    <!-- Container 5: Production -->
+                                    <g transform="translate(300, 0)">
+                                        <rect x="-60" y="-50" width="120" height="100" rx="8" ry="8" fill="#ffffff"
+                                            stroke="#6e57ff" stroke-width="2" />
+                                        <text x="0" y="-20" font-family="Arial, sans-serif" font-size="14"
+                                            fill="#343a40" text-anchor="middle" font-weight="bold">Production</text>
+
+                                        <!-- Server icon simplified -->
+                                        <g transform="translate(0, 10)">
+                                            <rect x="-20" y="-15" width="40" height="30" rx="2" ry="2" fill="#ff6b6b" />
+                                            <rect x="-15" y="-10" width="30" height="5" fill="#ffffff" />
+                                            <rect x="-15" y="0" width="30" height="5" fill="#ffffff" />
+                                        </g>
+                                    </g>
+
+                                    <!-- Automation Robot -->
+                                    <g transform="translate(0, -100)">
+                                        <circle cx="0" cy="0" r="40" fill="#6e57ff" opacity="0.1" />
+                                        <g transform="translate(0, 0)">
+                                            <!-- Robot head simplified -->
+                                            <rect x="-15" y="-15" width="30" height="30" rx="5" ry="5" fill="#6e57ff" />
+                                            <circle cx="-7" cy="-5" r="3" fill="#ffffff" />
+                                            <circle cx="7" cy="-5" r="3" fill="#ffffff" />
+                                            <path d="M-5,5 L5,5" stroke="#ffffff" stroke-width="2"
+                                                stroke-linecap="round" />
+                                        </g>
+
+                                        <!-- Connection lines to workflow -->
+                                        <path
+                                            d="M0,20 L-300,-20 M0,20 L-150,-20 M0,20 L0,-20 M0,20 L150,-20 M0,20 L300,-20"
+                                            stroke="#6e57ff" stroke-width="1" stroke-dasharray="4" opacity="0.6" />
+                                        <text x="0" y="-50" font-family="Arial, sans-serif" font-size="16"
+                                            fill="#6e57ff" text-anchor="middle" font-weight="bold">Automation
+                                            Engine</text>
+                                    </g>
+                                </g>
+
+                                <!-- Stats area -->
+                                <g transform="translate(400, 420)">
+                                    <rect x="-300" y="-20" width="600" height="40" rx="4" ry="4" fill="#ffffff"
+                                        stroke="#e9ecef" stroke-width="1" />
+
+                                    <!-- Manual vs Automated -->
+                                    <g transform="translate(-200, 0)">
+                                        <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#343a40"
+                                            text-anchor="middle" font-weight="bold">-75% Manual Tasks</text>
+                                    </g>
+
+                                    <!-- Deployment Speed -->
+                                    <g transform="translate(0, 0)">
+                                        <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#343a40"
+                                            text-anchor="middle" font-weight="bold">5x Faster Deployments</text>
+                                    </g>
+
+                                    <!-- Team Efficiency -->
+                                    <g transform="translate(200, 0)">
+                                        <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#343a40"
+                                            text-anchor="middle" font-weight="bold">+40% Team Efficiency</text>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Automation</span>
+                            <h3>Workflow Automation Tool</h3>
+                            <p>Developed a tool that automates repetitive tasks in software development workflows.
+                                Utilized
+                                Docker and Kubernetes for containerization, resulting in a scalable solution that
+                                significantly reduces manual processes and improves team efficiency.</p>
+                            <div class="portfolio-tech">
+                                <span>Docker</span>
+                                <span>Kubernetes</span>
+                                <span>Node.js</span>
+                            </div>
+                            <a href="https://github.com/Chinupatel234" target="_blank" class="btn btn-primary">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-cta" data-aos="fade-up">
+                    <p>Want to see more of my work?</p>
+                    <a href="https://github.com/Chinupatel234" target="_blank" class="btn btn-primary">View All
+                        Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-container">
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="stat-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                            </svg>
+                        </div>
+                        <div class="stat-number" data-count="10">0</div>
+                        <div class="stat-text">Projects Completed</div>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="stat-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <div class="stat-number" data-count="5">0</div>
+                        <div class="stat-text">Happy Clients</div>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="stat-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                            </svg>
+                        </div>
+                        <div class="stat-number" data-count="2">0</div>
+                        <div class="stat-text">Years Experience</div>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="stat-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M12 20h9"></path>
+                                <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                            </svg>
+                        </div>
+                        <div class="stat-number" data-count="15">0</div>
+                        <div class="stat-text">Technologies</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                        <h3>Contact Information</h3>
+                        <p>Feel free to reach out to me any time. I'm always open to discussing new projects, creative
+                            ideas
+                            or opportunities to be part of your vision.</p>
+
+                        <!-- Email -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                    </path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:chinmay23082005@gmail.com">chinmay23082005@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p><a href="tel:6199667379">619-966-7379</a></p>
+                            </div>
+                        </div>
+
+                        <!-- Location -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>San Diego, California</p>
+                            </div>
+                        </div>
+
+                        <!-- Availability -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Availability</h4>
+                                <p>Available for part-time work and projects</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107266.90140553506!2d-117.22918391802287!3d32.773428395911136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9530fad921e4b%3A0xd3a21fdfd15df79!2sSan%20Diego%2C%20CA!5e0!3m2!1sen!2sus!4v1710886242175!5m2!1sen!2sus"
+                                width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="contact-form" data-aos="fade-left" data-aos-delay="400">
+                        <h3>Send Message</h3>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" class="form-control" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" class="form-control" placeholder="Your Message"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <span class="btn-text">Send Message</span>
+                                <span class="btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                    </svg>
+                                </span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-top">
+                    <div class="footer-logo">
+                        <a href="#" aria-label="Go to homepage">
+                            <span class="logo-text">Chinmay</span>
+                            <span class="logo-dot"></span>
+                        </a>
+                        <p>A passionate Software Engineer and Computer Science student dedicated to creating innovative
+                            tech
+                            solutions that make a difference.</p>
+                    </div>
+                    <div class="footer-nav">
+                        <h3>Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="#hero">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-connect">
+                        <h3>Let's Connect</h3>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/chinmaypatel8383" target="_blank"
+                                aria-label="LinkedIn Profile">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                    </path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/Chinupatel234" target="_blank" aria-label="GitHub Profile">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77A5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a href="mailto:chinmay23082005@gmail.com" aria-label="Email Me">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                    </path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="copyright">&copy; 2025 Chinmay Patel. All Rights Reserved.</p>
+                    <div class="footer-tagline">
+                        <span>Designed & Built with ❤️ by Chinmay Patel</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-shape"></div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </a>
+
+    <!-- Success Modal -->
+    <div class="modal" id="success-modal">
+        <div class="modal-content">
+            <button class="close-modal" aria-label="Close modal">×</button>
+            <div class="modal-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+            </div>
+            <h3>Message Sent Successfully!</h3>
+            <p>Thank you for reaching out. I'll get back to you as soon as possible.</p>
+            <button class="btn btn-primary close-modal-btn">OK</button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <!-- Add AOS library for scroll animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Add Typed.js for typing animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Google Analytics (Replace with your GA tag) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</body>
+
+</html>
